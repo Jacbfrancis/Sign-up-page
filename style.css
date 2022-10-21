@@ -1,0 +1,213 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 1.6rem;
+    margin: 0px 0px 5px 0px;
+}
+
+p{
+    margin: 0px 0px 30px 0px;
+    color: grey;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+}
+
+.details{
+    background-color: #fff;
+    width: 55%;
+    height: 700px;
+}
+
+.logo{
+    background-color: #FDF6F6; 
+    width: 45%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 50%;
+}
+
+.information{
+    padding:0% 10% 0% 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    min-height: 100%;
+}
+
+.welm{
+    font-size: 0.8rem
+}
+
+label{
+    color: #616161;
+}
+
+.info{
+    color: grey;
+    display: block;
+    margin: 7px 0px 15px 0px;
+    border-style: solid;
+    border-radius: 10px;
+    width:80%;
+    padding: 3% 5%;
+}
+
+
+.fgt{
+    text-decoration: none;
+    color: #A436AF;
+}
+
+.fgt:hover{
+    color: #8d2e98;
+}
+
+input[type='checkbox']{
+  width: 14px !important;
+  height: 14px !important;
+  margin: 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  outline: 1px solid gray;
+  box-shadow: none;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1em;
+  background: #fff;
+}
+
+input[type='checkbox']:checked:after {
+  content: '✔';
+  color: white;
+  background: #A436AF;
+}
+
+.checkbox.rem{
+    margin-right: 15%;
+}
+
+.submit{
+    margin: 20px 0px 0px;
+    width: 90%;
+    height:45px;
+    background-color: #A436AF;
+    border-radius: 10px;
+    border-style: none;
+    color: #fff;
+}
+
+.submit:hover{
+    background-color:#8d2e98;
+}
+
+.sign{
+    margin: 20px 0px 0px;
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    border-style: none;
+    color: grey;
+}
+
+.google{
+    width: 3%;
+}
+
+.create{
+    margin: 15px auto;
+    padding-right: 12%;
+}
+
+.span{
+    color: #A436AF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.span:hover{
+    color: #8d2e98;
+}
+
+
+
+
+@media screen and (max-width:768px){
+    
+    body{
+        background-color: white;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    
+    p{
+        text-align: center;
+    }
+    
+    .main{
+        width: 100%;
+    }
+
+    .details{
+        width: 100%;
+        height: 520px;
+    }
+    
+    .information{
+        display:block;
+        padding:0% 0%;
+        margin: 0px 50px 0px 50px;
+    }
+    
+    .info{
+        width:90%;
+    }
+    
+    .logo {
+        background-color: #fff;
+        width: 500px;
+        height:150px ;
+    }
+    
+    img {
+      width: 20%;
+    }
+    
+    .submit{
+        width: 100%;
+    }
+   
+   .sign{
+       width: 100%;
+   }
+}
+
+
+/* © Created by Jacob Francis */
