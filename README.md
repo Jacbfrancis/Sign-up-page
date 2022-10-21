@@ -34,7 +34,7 @@ A simple Signup/Login Form made with HTML and CSS.
 
 ### Links
 
-- Live Site URL: [ live site URL ](https://your-live-site-url.com)
+- Live Site URL: [ Live Site ](https://jacbfrancis.github.io/Sign-up-page/)
 
 
 ## My process
