@@ -56,7 +56,7 @@ I learnt how to use media queries to modify specific characteristics depending o
 
 ### Continued development
 
-  - Get used to working with Media Queries and CSS flexbox.
+  - imorove my knowledge even further on css flexbox and Media queries.
   
 
 ### Useful resources
