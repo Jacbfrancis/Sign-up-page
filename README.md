@@ -1,7 +1,7 @@
 # Project - Simple Login/Signup Form
 
 
-A simple Signup/Login Form made with HTML and CSS.
+Responsive Signup/Login Form made with HTML and CSS.
 
 ## Table of contents
 
@@ -11,7 +11,6 @@ A simple Signup/Login Form made with HTML and CSS.
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -23,12 +22,8 @@ A simple Signup/Login Form made with HTML and CSS.
 ### Screenshot
 
   - ##### Desktop Layout
-![](screenshot_1.png)
 
-
-
-  - ##### Mobile layout 
-![](screenshot_2.png)
+![](images/screenshot_1.png)
 
 
 
@@ -43,21 +38,19 @@ A simple Signup/Login Form made with HTML and CSS.
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- Media Query
-- Responsive web design 
-- Desktop first workflow 
 
 
 ### What I learned
 
-I learnt how to use media queries to modify specific characteristics depending on the device's viewport.
+- I learnt how to create HTML forms and how to create various inpot types. An example is shown below:
 
+    ```html
+      <form action="">
+                    <label for="email">E-mail</label>
+                    <input class="info"type="email" name="email" id="email" placeholder="developer@gmail.com" />
+      </form>
+    ```
 
-### Continued development
-
-  - imorove my knowledge even further on css flexbox and Media queries.
-  
 
 ### Useful resources
 
@@ -66,6 +59,5 @@ I learnt how to use media queries to modify specific characteristics depending o
 
 ## Author
 
-- Website - [ Francis Jacob](https://github.com/Jacbfrancis)
 - Twitter - [@jacobxavier_](https://twitter.com/jacobxavier_?t=YdJHQngdQYJVbC7mWspqDg&s=08)
 
