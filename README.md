@@ -42,7 +42,7 @@ Responsive Signup/Login Form made with HTML and CSS.
 
 ### What I learned
 
-- I learnt how to create HTML forms and how to create various inpot types. An example is shown below:
+- learnt how to use HTML forms and iput types.
 
     ```html
       <form action="">
